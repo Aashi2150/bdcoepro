@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Manager</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <h1 class="head-design"><i>ExpenEase</i></h1>
+    <div class="container">
+        <section id="expenses">
+            <h2 class="header-style">Add Expense</h2>
+            <form id="expense-form">
+                <input class="name-design" "type="text" id="description" placeholder="Description">
+                <input class="no-design" type="number" id="amount" placeholder="Amount">
+                <input class="date-design" type="date" id="date" >
+                <button class="button-description" type="submit">Add Expense</button>
+            </form>
+        </section>
+        <section class="section-design" id="expense-list">
+            <h2 class="list-design" >Expense List</h2>
+            <ul class="items-design" id="expenses-list"></ul>
+            <div class="t-design" id="total-expenses">Total Expenses: $0.00</div>
+        </section>
+    </div>
+    <script src="bd.js"></script>
+</body>
+</html>

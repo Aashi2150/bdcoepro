@@ -1,0 +1,85 @@
+body{
+    color:white;
+    background-image: url(thumbnail3.jpg);
+    background-size: cover;
+    
+}
+.head-design{
+    display: block;
+    background-color:white;
+    opacity:0.5;
+    color: rgb(0 0,0);
+    text-align: center;
+    /* padding-left: 40%; */
+    margin-bottom:2%;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0;
+    font-size: 3rem;
+} .header-style{
+    position: relative;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "arial"
+}
+
+
+.name-design,.no-design{
+    display: block;
+    text-align: center;
+     margin-bottom:1%;
+     margin-left:35%;
+    font-size: 2rem;}
+    .button-description{
+        margin-left: 40%;
+        margin-top: 1%;
+        font-size:88%;
+    }
+    .date-design{
+        margin-left: 40%;
+        font-size:2rem;
+    }
+    
+
+
+ 
+    .section-design{
+        background-color: white;
+        color: black;
+        display:inline;
+    
+    }
+   .button-description{
+        padding-left:20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 16px;
+        border-radius:5px;
+        cursor:pointer;
+        transition: opacity 0.15s,
+        background-color 0.1s;
+        vertical-align: top;
+       border-color: white;
+       margin-left: 44%;
+       margin-bottom:5%;
+}
+.button-description:hover{
+   background-color: rgb(10, 97, 46);
+   border-color: black;
+   
+}
+ .button-description:active{
+
+    opacity: 0.5;
+    
+   }
+   /* .list-design{
+    display: none;
+   } */
+  .list-design,.t-design,.items-design{
+    margin-left: 15%;
+    font-size: 2rem;
+  }
+
+    
+    
+
